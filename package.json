@@ -1,0 +1,28 @@
+{
+  "name": "purchasecardsmover",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "set APP_DEBUG=true & node dist",
+    "test": "test",
+    "start": "set APP_DEBUG=false & node dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GerasimGerasimov/PurchaseCardsMover.git"
+  },
+  "author": "Gerasimov V. Gerasim dialix@yandex.ru",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GerasimGerasimov/PurchaseCardsMover/issues"
+  },
+  "homepage": "https://github.com/GerasimGerasimov/PurchaseCardsMover#readme",
+  "devDependencies": {
+    "@types/body-parser": "^1.17.1",
+    "@types/express": "^4.17.1",
+    "@types/express-session": "^1.15.14",
+    "@types/node": "^12.7.2"
+  }
+}
