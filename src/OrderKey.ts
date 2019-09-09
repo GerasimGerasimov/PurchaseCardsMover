@@ -1,5 +1,6 @@
+// Заказ Поставщику с вложенным в него массивом Товары
 export const OrderKey = {
-    key:'v8:DocumentObject.ЗаказПоставщику',
+    key: 'v8:DocumentObject.ЗаказПоставщику',
     value: {
         Date: {
             key:'v8:Date',
@@ -58,7 +59,6 @@ export const OrderKey = {
                 key:'v8:СуммаСНДС',
                 value:'2987.59'
             }
-                       
         }
     }
 }

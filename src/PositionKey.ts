@@ -1,3 +1,4 @@
+// Номенклатура
 export const PositionKey = {
     key:'v8:CatalogObject.Номенклатура',
     value: {
